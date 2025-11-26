@@ -12,6 +12,8 @@ I've specifically focused on implementing this securely with "state" and "code c
 
 ## Env variables:
 
+`NODE_ENV` - set to "production" in production so cookies are only available over HTTPS
+
 `PORT` - port to run server
 
 `ORIGIN_URL` - your origin url
